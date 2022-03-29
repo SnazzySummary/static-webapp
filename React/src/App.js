@@ -20,9 +20,7 @@ function App() {
         <NavBar />
         <Routes>
             <Route path="/" element={<HomePage />} exact />
-            <Route path="/about" element={<AboutPage />} exact />
             <Route path="/list" element={<ToonListPage />} exact />
-            <Route path="/detail/:id" element={<ToonDetailPage />} exact />
             <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </BrowserRouter>
