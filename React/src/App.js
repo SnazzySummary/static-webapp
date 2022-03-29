@@ -3,9 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'jquery/dist/jquery.min.js';
 import 'popper.js/dist/umd/popper.min.js';
 import 'bootstrap/dist/js/bootstrap.min.js';
-import AboutPage from './pages/AboutPage';
 import ToonListPage from './pages/ToonListPage';
-import ToonDetailPage from './pages/ToonDetailPage';
 import NavBar from './NavBar';
 import NotFoundPage from './pages/NotFoundPage';
 
