@@ -4,12 +4,6 @@ import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
 
 const ToonList = (param) => {
-    const exceptId = param.exceptId;
-
-    // var others = toons;
-    // if (exceptId != undefined) {
-    //   others = toons.filter(p => p.id !== exceptId);
-    // } 
 
     const [toonInfo, setToonInfo] = useState({});
 
